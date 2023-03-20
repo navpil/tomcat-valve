@@ -6,7 +6,7 @@ import org.apache.catalina.valves.RequestFilterValve;
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
 
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletException;
 import java.io.IOException;
 
 public class RemoteAddrStrictUrlValve extends RequestFilterValve {
